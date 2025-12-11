@@ -37,8 +37,12 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler",
-                    "tag": "v0.8.1"
+                    "url": "https://gitlab.gnome.org/GNOME/blueprint-compiler",
+                    "tag": "0.18.0",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 279929
+                    }
                 }
             ]
         },
@@ -46,14 +50,19 @@
             "name" : "wildcard",
             "builddir" : true,
             "buildsystem" : "meson",
-	    "config-opts" : [
-		"-Dbuildtype=release"
-	    ],
+		    "config-opts" : [
+				"-Dbuildtype=release"
+		    ],
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://gitlab.gnome.org/World/Wildcard/uploads/d3c6524de944bfe681def143aec6e786/wildcard-0.3.3.tar.xz",
-                    "sha256" : "06fee55cffc87fc21afa796adedd61d0e432c5bbd9247979fdcfc0b24197ca90"
+                    "url" : "https://gitlab.gnome.org/World/Wildcard/-/archive/v0.3.3/Wildcard-v0.3.3.tar.gz",
+                    "sha256" : "9f1f12d504e9eded03b6b5321fa096a0eae291cf06c60fc18dd3ca9db1d213c4",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 387650,
+                        "url-template": "https://gitlab.gnome.org/World/Wildcard/-/archive/v${version}/Wildcard-v${version}.tar.gz""
+                    }
                 },
                 {
                     "type" : "patch",
