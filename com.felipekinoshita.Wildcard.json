@@ -61,7 +61,7 @@
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 387650,
-                        "url-template": "https://gitlab.gnome.org/World/Wildcard/-/archive/v${version}/Wildcard-v${version}.tar.gz""
+                        "url-template": "https://gitlab.gnome.org/World/Wildcard/-/archive/v${version}/Wildcard-v${version}.tar.gz"
                     }
                 },
                 {
